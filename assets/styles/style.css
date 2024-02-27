@@ -367,6 +367,7 @@ body {
   -webkit-text-stroke-color: #1b5487;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   margin: 50px 0;
+  text-align: center;
 }
 
 .divider span {
