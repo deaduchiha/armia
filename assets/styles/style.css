@@ -1,0 +1,428 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+:root {
+  --border-colors: #f8d833;
+}
+
+.container {
+  display: flex;
+}
+
+.leftnav {
+  width: 50%;
+  height: 1024px;
+  background-color: #191919;
+}
+
+.main-logo {
+  background: none;
+  border: none;
+  margin: 40px 0 0 50px;
+}
+
+.leftnav h1 {
+  color: #fff;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 90px;
+  font-weight: 200;
+  margin: 200px 0 0 110px;
+}
+
+.leftnav h3 {
+  color: #fff;
+  font-size: 20px;
+  margin: 20px 0 0 110px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.leftnav p {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 200;
+  font-style: italic;
+  margin: 40px 0 0 110px;
+}
+.leftnav-btn {
+  width: 80%;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 80px;
+}
+
+.leftnav-btn button {
+  background-color: #21286b;
+  color: #fff;
+  border-radius: 7px;
+  width: 109px;
+  height: 39px;
+  border: 0.1px solid #fff;
+  border-style: ridge;
+}
+
+.rightnav {
+  width: 50%;
+  height: 1024px;
+  background-color: black;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.nav-list-link {
+  color: #fff;
+  font-size: 25px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.box {
+  border: 5px solid;
+  border-image: linear-gradient(to top, #000, #fff);
+  border-image-slice: 1;
+  width: 75%;
+  height: 50%;
+  margin: 0 auto;
+}
+
+.info {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.info-img img {
+  width: 65%;
+  height: 65%;
+  margin: 60px 0 0 90px;
+}
+
+.info-explanation {
+  color: #fff;
+  text-align: center;
+}
+
+.info-child1 h1 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 400;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.info-child1 h3 {
+  font-size: 20px;
+  font-weight: 100;
+  margin-bottom: 50px;
+}
+
+.info-child2 h5 {
+  font-size: 15px;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.root {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+.root-header {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.root h1 {
+  font-size: 60px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: 400;
+}
+
+.root-header span {
+  color: #f8d833;
+}
+
+.root-header p {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 50px;
+}
+
+.ability-box {
+  margin-top: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+.abilites::after {
+  position: absolute;
+  transform: rotate(45deg);
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: var(--border-colors);
+  top: -11.5px;
+  left: 0;
+}
+
+.abilites::before {
+  position: absolute;
+  transform: rotate(45deg);
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: var(--border-colors);
+  bottom: 0;
+  right: -13px;
+}
+
+.abilites {
+  position: relative;
+
+  border-top: 5px solid var(--border-colors);
+  border-right: 5px solid var(--border-colors);
+  width: 60%;
+  padding-block: 10px;
+  margin-left: 110px;
+}
+
+.yellow-box {
+  background: var(--border-colors);
+  height: 780px;
+  width: 471px;
+}
+
+.ability-apps {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 90px;
+  margin-top: 10px;
+}
+
+.ability-explanation h1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.ability-explanation p {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 40px;
+  font-size: 23px;
+}
+
+.ability-logo {
+  margin-right: 50px;
+}
+
+.ability-logo img {
+  width: 100px;
+  height: 100px;
+}
+
+.swiper-package {
+  background-color: #000;
+}
+
+.swiper-container {
+  width: 492px;
+  height: 800px;
+  margin: 90px auto;
+}
+
+.swiper-slide img {
+  width: 490px;
+  height: 800px;
+}
+
+.uiux {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.uiux-header {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.uiux h1 {
+  font-size: 60px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: 400;
+}
+
+.uiux-header span {
+  color: #35671d;
+}
+
+.uiux-header p {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 50px;
+}
+
+.ability-box2 {
+  margin-top: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 75px;
+}
+.abilites2::after {
+  position: absolute;
+  transform: rotate(45deg);
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: #35671d;
+  top: -11.5px;
+  left: 0;
+}
+
+.abilites2::before {
+  position: absolute;
+  transform: rotate(45deg);
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: #35671d;
+  bottom: 0;
+  right: -13px;
+}
+
+.abilites2 {
+  position: relative;
+  border-top: 5px solid #35671d;
+  border-right: 5px solid #35671d;
+  width: 60%;
+  height: 229px;
+  padding-block: 10px;
+  margin-left: 110px;
+}
+
+.green-box {
+  background: #35671d;
+  height: 229px;
+  width: 471px;
+}
+
+.ability-apps2 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 90px;
+  margin-top: 10px;
+}
+
+.ability-explanation2 h1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.ability-explanation2 p {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 40px;
+  font-size: 23px;
+}
+
+.ability-logo2 {
+  margin-right: 50px;
+}
+
+.ability-logo2 img {
+  width: 100px;
+  height: 100px;
+}
+
+.design-header h1 {
+  font-size: 42px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.divider {
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #1b5487;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin: 50px 0;
+}
+
+.divider span {
+  -webkit-text-fill-color: #1b5487;
+  -webkit-text-stroke-color: #fff;
+  -webkit-text-stroke-width: 0.5px;
+}
+
+.divider::before,
+.divider::after {
+  flex: 1;
+  content: "";
+  padding: 7px;
+  border: 1px solid #252525;
+  background-color: #252525;
+  border-radius: 50px;
+  margin: 5px;
+}
+
+.via {
+  font-size: 42px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+}
+
+.fa-brands,
+.fa-solid {
+  margin: 5px;
+  font-size: 30px;
+  color: #1b5487;
+  text-decoration: none;
+}
+
+.copy-right {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.d-d {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+}
+
+.d-d span {
+  font-size: 13px;
+}
+
+.footer-logo {
+  display: flex;
+  justify-content: center;
+}
