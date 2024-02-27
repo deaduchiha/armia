@@ -426,3 +426,10 @@ body {
   display: flex;
   justify-content: center;
 }
+
+.swiper-slide-prev {
+  opacity: 0.3;
+}
+.swiper-slide-next {
+  opacity: 0.3;
+}

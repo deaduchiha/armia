@@ -5,4 +5,5 @@ new Swiper(".swiper-container", {
     perSlideOffset: 12, // Space between cards in px
     perSlideRotate: 0, // Rotation of cards in degrees
   },
+  initialSlide: 1,
 });
